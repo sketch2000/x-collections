@@ -1,0 +1,28 @@
+[
+  {
+    "inputs": [],
+    "name": "getAge",
+    "outputs": [
+      {
+        "internalType": "uint8",
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint8",
+        "name": "addNum",
+        "type": "uint8"
+      }
+    ],
+    "name": "sumAge",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
