@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+// wagmi插件的provider
 import { Providers } from "./providers";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {

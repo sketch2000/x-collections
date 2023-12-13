@@ -1,0 +1,14 @@
+/* 添加自定义的旋转动画 */
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 在 hover 时应用旋转动画 */
+.animation:hover {
+  animation: rotate 1s infinite linear;
+}
