@@ -3,7 +3,7 @@ import { parseEther } from "viem";
 import { Button, ButtonGroup } from "@nextui-org/react";
 export default function SendTrx() {
   const { config } = usePrepareSendTransaction({
-    to: "0xDc0d2B59ED6cd183Ef9a8bc12090dAe04ae73E88",
+    to: "0xE6fEBe4Dd78272Fc33470bF4df9C5B16333F6619",
     value: parseEther("0.01"),
   });
   const { data, isLoading, isSuccess, sendTransaction } =
